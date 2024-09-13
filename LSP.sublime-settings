@@ -1,0 +1,16 @@
+{
+    "clients": {
+        "rust-analyzer": {
+            "command": ["rust-analyzer"],
+            "selector": "source.rust",
+            "initializationOptions": {
+                "checkOnSave": {
+                    "command": "clippy"
+                },
+                "rustfmt": {
+                    "enable": true
+                }
+            }
+        }
+    }
+}

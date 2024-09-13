@@ -1,0 +1,11 @@
+[
+{
+    "keys":["ctrl+`"], "command": "terminus_open"
+},
+{
+    "keys":["ctrl+shift+`"], "command": "toggle_terminus_panel"
+},
+{
+    "keys":["ctrl+shift+l"], "command": "find_all_under"
+}
+]
